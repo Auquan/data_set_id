@@ -1,6 +1,6 @@
 #version 1
+import os
 
 print ("Hello World")
 print ("hello again")
-f = open("text.txt","w")
-f.close()
+os.rename('def.py', 'abc.py')
